@@ -1,0 +1,44 @@
+GSÖ2B3U
+Verkefni 4 		– form 14%
+Verkefnalýsing:
+Verkefnið	felst	í	að búa	til	form	og	sía	gögn	(e.	data	filter)	úr	inntaki		(e.	input)		frá	notanda.
+Notaðu	föll,	lykkjur	og	annan	kóða	til	að	forðast	endurtekningar	og	harðkóðun.
+Ekki	er	farið	í	varðveislu	gagna	í	þessu	verkefni	(þ.e.	gagnagrunnur,	skrár	á	miðlara	eða	
+vaframinni).
+1. 3%	Links	og	Urls	
+Búðu	til	amk.	2	myndir	á	forsíðu	með	myndaheiti,	ef	þú	hefur	ekki	þegar	gert	það	í	síðasta	
+verkefni.	Þegar	smellt	er	á	mynd		þá	á	að	opnast	ný	síða eða	gluggi	með	frekari	upplýsingar	
+um	myndina	(mynd,	myndaheiti	og	textalýsing).	Notaðu	querystring	(GET	request)	
+Sjá	t.d:	http://www.tiposaurus.co.uk/php/2012/04/19/how-to-use-the-query-string-inphp.html
+	og	efni	frá	kennara
+2. 2% Búðu	til	form	með	html	og	css. Notaðu	form	elements,	types	og	attributes	eftir	þörfum.
+myndaheiti	<input>
+slóð	á	mynd	<input>
+textalýsing	(multiline	)	<textaarea>
+radiobutton	(birta	mynd	eða	ekki)
+submit	takki	<input>
+Sjá	(upprifjun):	http://www.w3schools.com/html/html_forms.asp
+3. 4% Búðu	til	php	skrá	(process.php)	sem	meðhöndlar	input	frá	notanda,	færir	gögn	úr	POST	
+fylkinu,	hreinsar	það	til	og	undirbýr	gögnin	til	frekari	vinnslu	(t.d.	færa	í	gagnagrunn eða	
+skrá).	
+• Notaðu	trim() og aðra	strengjavinnslu	(ucfirst,	strtolower,stripslashes osfrv.).
+• Meðhöndlaðu	tóm	gildi	(t.d. empty()).
+• Data	filtering;	htmlspecialchars eða	sambærilegt.		
+Sjá:	http://www.phptherightway.com/#data_filtering og	efni	frá	kennara.
+GSÖ2B3U
+4. 2% PHP	– Required	fields. Notaðu	php	til	að	tryggja	að	ákveðnir	reitir	séu	ekki	tómir/slepptir	
+t.d. myndaheiti	og	slóð	á	mynd.	Birtu	villumeldingu.
+Sjá:	http://www.w3schools.com/php/php_form_required.asp
+5. 2%		Eftir	að	notandi	hefur	fyllt	út	form	þá á	formið	að	hverfa (t.d.	með isset() á	formið,	
+action	eða	header() á	aðra	síðu).
+6. 1% Birtu	mynd	og	myndheiti	frá	forminu	á	vefsíðu ef	hún	er	sýnileg	annars	ekki.	(frjáls	
+útfærsla).
+Námsmat:
+Gefið	er	fullt	fyrir	fullnægjandi	lausn á	lið	,	hálft	fyrir	lausn	sem	er	ábótavant	en	virkar.
+Skilaðu	tvær	slóðir	inná	Innu:
+Skil:
+1) slóð	á	vefsvæði	sem	hýsir	kóðann	þinn	(t.d	Github)
+2) slóð	þar	sem	vefsíðun	er	hýst,	tsuts.tskoli.is	(eða	eigin	miðlara)
+Gott	er	að	venja	sig	á	að	hafa	readme.txt	skrá	með	vefnum	þar	sem	þú	getur	komið	skýringum	
+og	ábendingum til	kennara.	
+Ekki	er	tekið	við	seinskilum	(skila	því	sem	hefur	klárast).
