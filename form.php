@@ -43,7 +43,7 @@
                   echo "<div class=\"text-center\">";
                   echo "<h1>$myndanafn</h1>";
                   echo "<img class=\"img-responsive center-block\" src=\"{$myndaslod}\">";
-                  echo "<br> <br><figcaption class=\"figure-caption\">$lysing</figcaption>";
+                  echo "<br> <br><figure class=\"figure-caption\">$lysing</figure>";
                   echo "<br> <br></div>";
                 }
                 else{
